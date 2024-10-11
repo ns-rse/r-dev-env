@@ -1,5 +1,8 @@
+This tutorial takes you through starting R in the workspace container.
 
-1) Create a file in VS Code ending with a .R extension. You can create new files
+## 1. Create a new file
+
+Create a file in VS Code ending with a `.R` extension. You can create new files
 by clicking on the new file icon in VS Code Explorer, or use the `code` command
 in the terminal to create and open an R file
 
@@ -7,14 +10,17 @@ in the terminal to create and open an R file
 code R/test.R
 ```
 
-![alt text](../assets/rdev4.png)
+![Screen shot of VSCode running the Containerised R Development Environment.](../assets/rdev4.png)
 
-2) You should see `R:(not attached)` in the Status Bar at the bottom of the
+You should see `R:(not attached)` in the Status Bar at the bottom of the
 VSCode window.
 
-![alt text](../assets/rdev11.png)
+![Status bar of VSCode showing message that `R:(not attached)`.](../assets/rdev11.png)
 
-3) Click on the `R:(not attached)` link to launch an R terminal. You can then
+## 2. Launch R
+
+Click on the `R:(not attached)` link to launch an R terminal. You can then
 send code from the `.R` file to the R terminal by pressing `cmd/ctrl + enter`.
 
-![alt text](../assets/rdev12.png) ![alt text](../assets/rdev5.png)
+![Screen shot of R session running in the Terminal tab of VSCode.](../assets/rdev12.png)
+![VSCode screen shot showing R terminal and plot in a separate tab.](../assets/rdev5.png)
